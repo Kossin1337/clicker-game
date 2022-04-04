@@ -5,4 +5,26 @@
   align-items: center;
   border-right: 2px solid #fefefe;
   border-left: 2px solid #fefefe;
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .displayed-value {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+
+  .clicker-btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+    &:hover {
+      border-bottom: 5px solid purple;
+    }
+  }
 }
