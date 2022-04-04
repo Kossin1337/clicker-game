@@ -87,6 +87,13 @@ const unitsAncientApes = [
         newPassiveIncomeBoost: 0.00175,
         newOnClickBoost: 0.15,
       },
+      {
+        name: "White Snow Capuchino",
+        description: "Adds additional moral boost",
+        newValue: 1500,
+        newPassiveIncomeBoost: 0.00225,
+        newOnClickBoost: 0.2,
+      },
     ],
   },
   {
@@ -143,8 +150,8 @@ const unitsAncientApes = [
   },
   {
     id: 4,
-    name: "v4",
-    startValue: 1250,
+    name: "Langur",
+    startValue: 1750,
   },
   {
     id: 5,
