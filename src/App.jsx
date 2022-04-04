@@ -1,5 +1,4 @@
 import React, { createContext } from "react";
-
 import { useState } from "react";
 import "./App.scss";
 
@@ -14,6 +13,7 @@ const App = () => {
   const [currentValue, setCurrentValue] = useState(0);
   const [onClickIncrement, setOnClickIncrement] = useState(1);
   const [passiveIncomeValue, setPassiveIncomeValue] = useState(0);
+  /* set up different utilities based on a specific timestamp (era or sth) */
 
   return (
     <AppContext.Provider

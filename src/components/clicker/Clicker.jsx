@@ -1,13 +1,16 @@
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "../../App";
 import "./Clicker.scss";
+import GameBoard from "./GameBoard";
 
 const Clicker = () => {
   const { currentValue, setCurrentValue, onClickIncrement } =
     useContext(AppContext);
 
   /* on first render */
-  // useEffect(() => {}, []);
+  // useEffect(() => {
+
+  // }, []);
 
   /* Update value on button click */
   const changeValue = () => {
@@ -17,7 +20,7 @@ const Clicker = () => {
 
   return (
     <div className="clicker">
-      <h1 className="title">Game Board</h1>
+      <GameBoard />
       <span className="displayed-value">{currentValue}</span>
       <button className="clicker-btn" onClick={changeValue}>
         Clicker
