@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.navigation {
+  grid-column: 1 / -1;
+  height: 80px;
+  padding: 0 2rem;
+  border-bottom: 1px solid #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .login-btn {
+    cursor: pointer;
+    font-family: "Righteous", cursive;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: 0.15s ease;
+
+    &:hover {
+      background-color: limegreen;
+    }
+  }
+}
